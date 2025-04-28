@@ -270,6 +270,8 @@ df
 
 st.write("Output without encryption")
 softmax_output_normal
+st.write("Output with encryption")
+softmax_output
 
 if((softmax_output == softmax_output_normal).all()):
     st.write("Result matched ✅")
